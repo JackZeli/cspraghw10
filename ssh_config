@@ -1,0 +1,11 @@
+# CAEN
+Host jz
+  HostName login.engin.umich.edu
+  User jackzeli
+  Compression yes
+
+# Umich GitLab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/jackzeli_rsa  
